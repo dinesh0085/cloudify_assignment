@@ -27,7 +27,10 @@ button{
 }
 
 nav{
-    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -35,4 +38,10 @@ nav{
     background-color: teal;
     color: white;
     
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
