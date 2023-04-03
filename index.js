@@ -27,7 +27,11 @@ document.getElementById("input_form").addEventListener("submit", (e) => {
       document.getElementById("description").value="",
       document.getElementById("due_date").value="",
       document.getElementById("start_date").value=""
-      console.log(text);
+      alert(text)
+   
     })
-    .catch((err) => console.error(err));
+    .catch((err) => {
+        console.error(err)
+        
+    });
 });
